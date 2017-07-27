@@ -1,0 +1,47 @@
+body {
+  background-color: #F2F1E8;
+  color: #131511;
+}
+
+.nav {
+  background-color: #ffffff;
+  color: #2B2F26;
+  position: static;
+}
+.nav a{
+  text-align: center;
+  text-decoration: none;
+  font-family: Merriweather, Roboto, sans-serif;
+
+}
+a.hover {
+  background-color: #CD5D67
+}
+.nav img {
+}
+.title{
+  text-align: center;
+}
+.prodpics {
+  position: relative;
+  width: 50%
+}
+.prodpics img{
+  display: flex;
+  flex-flow: row wrap;
+}
+.prodpics h2{
+  position: inherit;
+  top: 200px;
+  left: 0px;
+  width: 100%;
+}
+.prodpics h2 span {
+  color: white;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.backgroundpic {
+  position: fixed;
+}
